@@ -1,5 +1,13 @@
 # Smooth Scroll en JS vanilla
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Setup and Usage](#setup-and-usage)
+4. [Code Explanation](#code-explanation)
+5. [License](#license)
+6. [English Version](#english)
+
 ## Introducción
 
 La función de desplazamiento suave mejora el comportamiento de desplazamiento predeterminado, proporcionando una transición más suave cuando el usuario se desplaza utilizando la rueda del ratón o gestos táctiles. Esto se logra actualizando gradualmente la posición de desplazamiento en lugar de saltar directamente a la nueva posición.
@@ -115,7 +123,26 @@ La función de desplazamiento suave mejora el comportamiento de desplazamiento p
     ```javascript
     const onTouchMove = (e) => {
         currentTouchY = e.touches[0].clientY;
-        let delta = (startTouchY - currentTouchY) * 
+        let delta = (startTouchY - currentTouchY) * 1.25;
+
+        targetPosition += delta;
+        targetPosition = Math.max(0, targetPosition);
+        targetPosition = Math.min(mainContent.scrollHeight - windowValues.height, targetPosition);
+
+        startTouchY = currentTouchY;
+
+        if (!isScrolling) {
+            isScrolling = true;
+            requestAnimationFrame(smoothScroll);
+        }
+    };
+    window.addEventListener('touchmove', onTouchMove);
+    ```
+
+    ## License
+
+Este proyecto se ecuentra bajo la MIT License.
+    
 # Vanilla JS Smooth Scroll
 
 This project implements a smooth scrolling feature for a webpage. It leverages JavaScript to provide a more fluid and appealing scrolling experience for users.
@@ -126,6 +153,8 @@ This project implements a smooth scrolling feature for a webpage. It leverages J
 3. [Setup and Usage](#setup-and-usage)
 4. [Code Explanation](#code-explanation)
 5. [License](#license)
+
+# ENGLISH
 
 ## Introduction
 
