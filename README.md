@@ -142,6 +142,8 @@ La función de desplazamiento suave mejora el comportamiento de desplazamiento p
     ## Licencia
 
 Este proyecto se ecuentra bajo la MIT License.
+
+# ENGLISH
     
 # Vanilla JS Smooth Scroll
 
@@ -154,7 +156,6 @@ This project implements a smooth scrolling feature for a webpage. It leverages J
 4. [Code Explanation](#code-explanation)
 5. [License](#license)
 
-# ENGLISH
 
 ## Introduction
 
