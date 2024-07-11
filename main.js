@@ -1,4 +1,6 @@
+const docElements = [document.documentElement, document.body]
 const mainContent = document.querySelector('[data-scroll-content]')
+
 
 const windowValues = {
     height: window.innerHeight,
@@ -10,14 +12,12 @@ const onResize = () => {
         windowValues.width = window.innerWidth
  };
 
-
 window.addEventListener('resize', onResize)
-
 
 let currentPosition = 0
 let targetPosition = 0
 let isScrolling = false
-let acelleration = .05
+let acelleration = .1
 
 const smoothScroll = () => {
     if (isScrolling) {
@@ -33,6 +33,9 @@ const smoothScroll = () => {
 }
 
 const onScroll = (e) => {
+
+    docElements.forEach((el) => { el.style.overflow = 'hidden' })
+
     targetPosition += e.deltaY
     targetPosition = Math.max(0, targetPosition)
     targetPosition = Math.min(mainContent.scrollHeight - windowValues.height, targetPosition)
@@ -54,7 +57,7 @@ const onScrollTouch = (e) => {
     }
 }
 
-window.addEventListener('wheel', onScroll);
+window.addEventListener('wheel', onScroll)
 
 
 let startTouchY = 0;
