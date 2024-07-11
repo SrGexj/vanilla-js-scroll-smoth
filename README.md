@@ -1,11 +1,11 @@
 # Smooth Scroll en JS vanilla
 
 ## Tabla de contenidos
-1. [Introduction](#introducción)
-2. [Features](#Características)
-3. [Setup and Usage](#Configuración-y-Uso)
-4. [Code Explanation](#Explicación-del-Código)
-5. [License](#Licencia)
+1. [Introducción](#introducción)
+2. [Características](#Características)
+3. [Configuración y Uso](#Configuración-y-Uso)
+4. [Explicación del Código](#Explicación-del-Código)
+5. [Licencia](#Licencia)
 6. [English Version](#ENGLISH)
 
 ## Introducción
