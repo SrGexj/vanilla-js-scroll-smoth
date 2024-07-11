@@ -1,12 +1,12 @@
 # Smooth Scroll en JS vanilla
 
 ## Tabla de contenidos
-1. [Introduction](#introduccion)
-2. [Features](#Caracteristicas)
-3. [Setup and Usage](#setup-and-usage)
-4. [Code Explanation](#code-explanation)
-5. [License](#license)
-6. [English Version](#english)
+1. [Introduction](#introducción)
+2. [Features](#Características)
+3. [Setup and Usage](#Configuración-y-Uso)
+4. [Code Explanation](#Explicación-del-Código)
+5. [License](#Licencia)
+6. [English Version](#ENGLISH)
 
 ## Introducción
 
@@ -139,7 +139,7 @@ La función de desplazamiento suave mejora el comportamiento de desplazamiento p
     window.addEventListener('touchmove', onTouchMove);
     ```
 
-    ## License
+    ## Licencia
 
 Este proyecto se ecuentra bajo la MIT License.
     
