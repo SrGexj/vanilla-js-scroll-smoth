@@ -1,8 +1,8 @@
 # Smooth Scroll en JS vanilla
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
+## Tabla de contenidos
+1. [Introduction](#introduccion)
+2. [Features](#Caracteristicas)
 3. [Setup and Usage](#setup-and-usage)
 4. [Code Explanation](#code-explanation)
 5. [License](#license)
