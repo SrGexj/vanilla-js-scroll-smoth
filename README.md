@@ -20,21 +20,22 @@ La función de desplazamiento suave mejora el comportamiento de desplazamiento p
 
 ## Configuración y Uso
 
-0. **ANTES DE NADA TEN EN CUENTA QUE DEBES ENCAPSULAR TODO EL CONTENIDO EN EL ELEMENTO CON EL ATRIBUTO `data-scroll-content` EXCEPTO AQUELLOS QUE TENGAN POSICIONES NO ESTÁTICAS**
+0. **ANTES DE NADA TEN EN CUENTA QUE DEBES ENCAPSULAR TODO EL CONTENIDO EN EL ELEMENTO CON EL ATRIBUTO
+   `data-scroll-content` EXCEPTO AQUELLOS QUE TENGAN POSITION: FIXED / ABSOLUTE **
 
-1. **Estructura HTML**: Asegúrate de que tu contenido principal esté envuelto en un elemento con el atributo `data-scroll-content`.
+2. **Estructura HTML**: Asegúrate de que tu contenido principal esté envuelto en un elemento con el atributo `data-scroll-content`.
     ```html
     <div data-scroll-content>
         <!-- Tu contenido aquí -->
     </div>
     ```
 
-2. **JavaScript**: Incluye el código JavaScript proporcionado en tu proyecto.
+3. **JavaScript**: Incluye el código JavaScript proporcionado en tu proyecto.
     ```html
     <script src="path/to/smoothScroll.js"></script>
     ```
 
-3. **Inicialización**: El script inicializará automáticamente el comportamiento de desplazamiento suave al cargar la página.
+4. **Inicialización**: El script inicializará automáticamente el comportamiento de desplazamiento suave al cargar la página.
 
 ## Explicación del Código
 
