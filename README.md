@@ -21,7 +21,7 @@ La función de desplazamiento suave mejora el comportamiento de desplazamiento p
 ## Configuración y Uso
 
 0. **ANTES DE NADA TEN EN CUENTA QUE DEBES ENCAPSULAR TODO EL CONTENIDO EN EL ELEMENTO CON EL ATRIBUTO
-   `data-scroll-content` EXCEPTO AQUELLOS QUE TENGAN POSITION: FIXED / ABSOLUTE **
+   `data-scroll-content` EXCEPTO AQUELLOS QUE TENGAN POSITION: FIXED / ABSOLUTE**
 
 2. **Estructura HTML**: Asegúrate de que tu contenido principal esté envuelto en un elemento con el atributo `data-scroll-content`.
     ```html
